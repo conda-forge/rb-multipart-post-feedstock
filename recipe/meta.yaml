@@ -1,5 +1,5 @@
 {% set name = "multipart-post" %}
-{% set version = "2.1.1" %}
+{% set version = "2.3.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: d2dd7aa957650e0d99e0513cd388401b069f09528441b87d884609c8e94ffcfd
+  sha256: 3dcdd74a767302559fcf91a63b568ee00770494ce24195167b1c147ab3f6fe51
 
 build:
   noarch: generic
